@@ -1,6 +1,74 @@
-KSO/WPS i18n
+KSO/WPS 한글 언어팩
 ================================================================================
-KSO/WPS internationalization support.
+KSO/WPS Korean language support.
+
+번역된 언어파일을 만드는 법
+--------------------------------------------------------------------------------
+ts 확장자의 파일들이 해당 언어의 번역 대상입니다. 먼저 번역을 위해 필요한
+프로그램을 설치합니다.(하모니카 3.0 기준)
+
+```sh
+sudo apt-get install qt4-dev-tools
+```
+이제 저장소의 내용 중 ko_KR 폴더로 이동해서 아래와 같이 실행합니다. 
+
+```sh
+cd ko_KR/ts
+linguist wps.ts
+```
+
+아래와 같은 프로그램이 열립니다. 이미지의 붉은 표시 영역에서 번역할 내용을
+입력하고 상단메뉴의 체크아이콘(v)을 누릅니다.
+
+![linguist](./linguist.png)
+
+
+While you're at it, it's recommended to keep some `.ts` files from other relevant
+languages open side-by-side for reference, if that's the case. You can do it in
+Linguist, just follow the steps:
+
+    Linguist -> File -> Open Read-Only... -> choose a .ts file of another language
+
+For example, if you're translating `zh_TW/ts/wpsresource.ts` you may want to
+occasionally reference to the `zh_CN` strings. Then you can open
+`zh_CN/ts/wpsresource.ts` for that.
+
+You can translate KSO/WPS in any order you want. But we strongly recommend that
+you translate `wpsresource.ts`, `wppresource.ts` and `etresource.ts` first,
+because they comprise the main interface so a user reads these strings first.
+
+Once you translated some strings and saved your changes, just run
+
+```sh
+make install
+```
+
+to install and test your work.
+
+How to translate non-string resources
+--------------------------------------------------------------------------------
+KSO/WPS will try to load resources first from the language-specific directory,
+falling back to the default directory.
+
+If you want to translate non-string resources, for example templates, you can 
+create a same directory structure as `default` in your language's directory,
+then copy-and-edit the file you want to translate.
+
+For example, here's the steps to translate the `normal.wpt` template for `vi_VI`.
+
+```sh
+cd vi_VI
+mkdir templates
+cd templates
+cp ../../default/templates/normal.wpt .
+wps -t normal.wpt  # edit it
+```
+
+You're free to copy resources from other languages.
+
+*Note*: Do **not** copy the entire directory tree from default; it's not a good idea.
+Please only copy the files you need.
+
 
 Prerequisites
 --------------------------------------------------------------------------------
@@ -153,58 +221,3 @@ make install    # to install
 make uninstall  # to uninstall
 ```
 
-How to translate strings
---------------------------------------------------------------------------------
-There is a directory named `ts` for each language. There are several `.ts` files
-in the directory, which can be opened with Linguist.
-
-```sh
-cd xx_XX/ts  # substitute with actual locale
-linguist wpsresource.ts
-```
-
-While you're at it, it's recommended to keep some `.ts` files from other relevant
-languages open side-by-side for reference, if that's the case. You can do it in
-Linguist, just follow the steps:
-
-    Linguist -> File -> Open Read-Only... -> choose a .ts file of another language
-
-For example, if you're translating `zh_TW/ts/wpsresource.ts` you may want to
-occasionally reference to the `zh_CN` strings. Then you can open
-`zh_CN/ts/wpsresource.ts` for that.
-
-You can translate KSO/WPS in any order you want. But we strongly recommend that
-you translate `wpsresource.ts`, `wppresource.ts` and `etresource.ts` first,
-because they comprise the main interface so a user reads these strings first.
-
-Once you translated some strings and saved your changes, just run
-
-```sh
-make install
-```
-
-to install and test your work.
-
-How to translate non-string resources
---------------------------------------------------------------------------------
-KSO/WPS will try to load resources first from the language-specific directory,
-falling back to the default directory.
-
-If you want to translate non-string resources, for example templates, you can 
-create a same directory structure as `default` in your language's directory,
-then copy-and-edit the file you want to translate.
-
-For example, here's the steps to translate the `normal.wpt` template for `vi_VI`.
-
-```sh
-cd vi_VI
-mkdir templates
-cd templates
-cp ../../default/templates/normal.wpt .
-wps -t normal.wpt  # edit it
-```
-
-You're free to copy resources from other languages.
-
-*Note*: Do **not** copy the entire directory tree from default; it's not a good idea.
-Please only copy the files you need.

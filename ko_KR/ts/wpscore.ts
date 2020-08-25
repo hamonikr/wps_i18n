@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ko_KR">
-<defaultcodec>UTF-8</defaultcodec>
+<TS version="2.1" language="ko_KR">
 <context>
     <name>field_parser_index</name>
     <message>
         <source>Error. No index entries found.</source>
-        <translation type="unfinished"></translation>
+        <translation>오류 인덱스를 찾을 수 없습니다.</translation>
     </message>
     <message>
         <source>Error. Switch argument not specified.</source>
-        <translation type="unfinished"></translation>
+        <translation>오류 매개변수가 정의되지 않았습니다.</translation>
     </message>
     <message>
         <source>Error. Not a valid bookmark in entry on page .</source>
-        <translation type="unfinished"></translation>
+        <translation>오류 사용할 수 없는 북마크입니다.</translation>
     </message>
     <message>
         <source>Alphanumeric</source>
-        <translation type="unfinished"></translation>
+        <translation>영어숫자</translation>
     </message>
     <message>
         <source>Symbol</source>
-        <translation type="unfinished"></translation>
+        <translation>기호</translation>
     </message>
     <message>
         <source>Error. Unknown switch argument.</source>
-        <translation type="unfinished"></translation>
+        <translation>오류 알 수 없는 매개변수입니다.</translation>
     </message>
     <message>
         <source>Stroke</source>
@@ -34,19 +33,19 @@
     </message>
     <message>
         <source>Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>중국어</translation>
     </message>
     <message>
         <source>Error. Not a valid range of characters.</source>
-        <translation type="unfinished"></translation>
+        <translation>오류 사용할 수 없는 문자입니다.</translation>
     </message>
     <message>
         <source>Error. Index not allowed in footnote, endnote, header, footer, or comment.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>WPS Writer cannot update Index.</source>
-        <translation type="unfinished"></translation>
+        <translation>WPS Writer 인덱스를 업데이트 할 수 없습니다.</translation>
     </message>
 </context>
 <context>
@@ -62,7 +61,7 @@
     <message>
         <source>Comment</source>
         <comment>TX_COMMENT_TITLE</comment>
-        <translation type="unfinished"></translation>
+        <translation>코멘트</translation>
     </message>
 </context>
 <context>
@@ -70,22 +69,22 @@
     <message>
         <source>Insert Picture</source>
         <comment>TxVersion_InsertPicture</comment>
-        <translation type="unfinished"></translation>
+        <translation>이미지 삽입</translation>
     </message>
     <message>
         <source>Insert WordArt</source>
         <comment>TxVersion_InsertTextEffect</comment>
-        <translation type="unfinished"></translation>
+        <translation>워드아트 삽입</translation>
     </message>
     <message>
         <source>Clear</source>
         <comment>TxVersion_Clear</comment>
-        <translation type="unfinished"></translation>
+        <translation>모두 제거</translation>
     </message>
     <message>
         <source>Text Box</source>
         <comment>TxTextBox</comment>
-        <translation type="unfinished"></translation>
+        <translation>글상자</translation>
     </message>
 </context>
 <context>
@@ -93,7 +92,7 @@
     <message>
         <source>Error! Too many picture switches defined.</source>
         <comment>TX_FIELD_ERR_TOO_MANY_PICTURE</comment>
-        <translation type="unfinished"></translation>
+        <translation>오류! 너무 많은 이미지가 정의되었습니다.</translation>
     </message>
     <message>
         <source>Error! Picture switch must be the first formatting switch.</source>
@@ -103,32 +102,32 @@
     <message>
         <source>Error! The style name is not specified.</source>
         <comment>TX_FIELD_ERR_STYLEREF_NO_STYLENAME_GIVEN</comment>
-        <translation type="unfinished"></translation>
+        <translation>오류! 스타일 이름이 없습니다.</translation>
     </message>
     <message>
         <source>Error! The style is not specified.</source>
         <comment>TX_FIELD_ERR_STYLE_NOT_DEFINED</comment>
-        <translation type="unfinished"></translation>
+        <translation>오류! 스타일이 정의되어 있지 않습니다.</translation>
     </message>
     <message>
         <source>Error!</source>
         <comment>TX_FIELD_ERR_EQ_PARSE</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">오류!</translation>
     </message>
     <message>
         <source>Error! Unknown switch argument.</source>
         <comment>TX_FIELD_ERR_UNKNOWN_SWITCH_ARGUMENT</comment>
-        <translation type="unfinished"></translation>
+        <translation>오류! 알 수 없는 매개변수입니다.</translation>
     </message>
     <message>
         <source>Error! Switch argument not specified.</source>
         <comment>TX_FIELD_ERR_SWITCH_ARGUMENT_NOT_SPECIFIED</comment>
-        <translation type="unfinished"></translation>
+        <translation>오류! 매개변수가 정의되지 않았습니다.</translation>
     </message>
     <message>
         <source>Error! Picture string contains unmatched quotes.</source>
         <comment>TX_FIELD_ERR_PICTURE_STRING_CONTAINS_UNMATCHED_QUOTES</comment>
-        <translation type="unfinished"></translation>
+        <translation>오류! 이미지에 포함된 문자열에 일치하지 않는 따옴표가 있습니다.</translation>
     </message>
     <message>
         <source>WPS Writer encountered an error when trying to update source file.
@@ -138,17 +137,22 @@ Try one or more of the following:
 3. Make sure that the source file is in the appropriate directory.
 4. Make sure that the source file&apos;s format is supported by WPS.</source>
         <comment>TX_FIELD_ERR_UPDATESOURCEFAIL</comment>
-        <translation type="unfinished"></translation>
+        <translation>소스 파일을 업데이트하려고 할 때 오류가 발생했습니다.
+다음 중 하나 이상을 시도하십시오.
+1. 소스 파일이 열렸거나 다른 프로그램이 사용하고 있는지 확인합니다.
+2. 소스 파일이 보호되어 있는지 확인합니다.
+3. 소스 파일이 적절한 디렉토리에 있는지 확인하십시오.
+4. 소스 파일의 형식이 WPS에서 지원되는지 확인합니다.</translation>
     </message>
     <message>
         <source>Error! Number cannot be represented in specified format.</source>
         <comment>TX_FIELD_ERR_NUM_CANNOT_BE_SPECIFIED_FORMAT</comment>
-        <translation type="unfinished"></translation>
+        <translation>오류! 숫자는 지정된 형식으로 표시 할 수 없습니다.</translation>
     </message>
     <message>
         <source>Error! The style has no specified text.</source>
         <comment>TX_FIELD_ERR_STYLE_NO_SPECIFIED_STYLE_TEXT</comment>
-        <translation type="unfinished"></translation>
+        <translation>오류! 스타일에 지정된 텍스트가 없습니다.</translation>
     </message>
 </context>
 <context>
@@ -156,67 +160,69 @@ Try one or more of the following:
     <message>
         <source>Title</source>
         <comment>TX_STYLE_NAME_TITLE</comment>
-        <translation type="unfinished"></translation>
+        <translation>제목</translation>
     </message>
     <message>
         <source> </source>
         <comment>TX_SPACE</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Error! Bookmark not defined.</source>
         <comment>TX_FIELD_ERR_BOOKMARK_NOT_DEFINED</comment>
-        <translation type="unfinished"></translation>
+        <translation>오류! 책갈피가 정의되지 않았습니다.</translation>
     </message>
     <message>
         <source>Normal text</source>
         <comment>TX_FIELD_REGULARTEXT</comment>
-        <translation type="unfinished"></translation>
+        <translation>일반 텍스트</translation>
     </message>
     <message>
         <source>Number</source>
         <comment>TX_FIELD_NUMBER</comment>
-        <translation type="unfinished"></translation>
+        <translation>숫자</translation>
     </message>
     <message>
         <source>Date</source>
         <comment>TX_FIELD_DATE</comment>
-        <translation type="unfinished"></translation>
+        <translation>날짜</translation>
     </message>
     <message>
         <source>Current date</source>
         <comment>TX_FILED_CURDATE</comment>
-        <translation type="unfinished"></translation>
+        <translation>현재날짜</translation>
     </message>
     <message>
         <source>Current time</source>
         <comment>TX_FILED_CURTIME</comment>
-        <translation type="unfinished"></translation>
+        <translation>현재시간</translation>
     </message>
     <message>
         <source>_Top</source>
         <comment>TX_FILED_LINK_DOCUMENTTOP</comment>
-        <translation type="unfinished"></translation>
+        <translation>상단</translation>
     </message>
     <message>
         <source>Main Document Only.</source>
         <comment>TX_FIELD_ERR_AUTONUM_ONLY_MAINTEXT</comment>
-        <translation type="unfinished"></translation>
+        <translation>주 문서만.</translation>
     </message>
     <message>
         <source>Error. Missing test condition.</source>
         <comment>TX_FIELD_ERR_IF_LACK_CONDITIONS</comment>
-        <translation type="unfinished"></translation>
+        <translation>오류. 테스트 조건이 없습니다.</translation>
     </message>
     <message>
         <source>Error. Unknown op code for conditional.</source>
         <comment>TX_FIELD_ERR_IF_CANNOT_RECOGNIZE</comment>
-        <translation type="unfinished"></translation>
+        <translation>오류. 조건부 연산 코드를 알 수 없습니다.</translation>
     </message>
     <message>
         <source>Error. Missing second part of test condition.</source>
         <comment>TX_FIELD_ERR_IF_LACK_SECOND</comment>
-        <translation type="unfinished"></translation>
+        <translation>
+45/5000
+오류. 테스트 조건의 두 번째 부분이 누락되었습니다.</translation>
     </message>
 </context>
 <context>

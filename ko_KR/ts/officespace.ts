@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ko_KR">
+<TS version="2.1" language="ko_KR">
 <context>
     <name>KActiveDialogAtStartup</name>
     <message>
         <source>https://vip.wps.cn/api/card/activate</source>
-        <translation type="unfinished"></translation>
+        <translation>https://vip.wps.cn/api/card/activate</translation>
     </message>
 </context>
 <context>
     <name>KBeforeLoginTipWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>양식</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation type="unfinished"></translation>
+        <translation>레이블</translation>
     </message>
     <message>
         <source>webHomeLink</source>
-        <translation type="unfinished"></translation>
+        <translation>웹사이트링크</translation>
     </message>
     <message>
         <source>Introduction</source>
-        <translation type="unfinished"></translation>
+        <translation>소개</translation>
     </message>
     <message>
         <source>Homepage link of WPS Office Cloud</source>
-        <translation type="unfinished"></translation>
+        <translation>WPS Office Cloud 웹사이트</translation>
     </message>
     <message>
         <source>Help link of WPS Office Cloud</source>
-        <translation type="unfinished"></translation>
+        <translation>WPS Office Cloud 도움말</translation>
     </message>
 </context>
 <context>
     <name>KCheckCloudFileTip</name>
     <message>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>보기</translation>
     </message>
     <message>
         <source>This document is updated. Go and check the updates.</source>
         <comment>allow with %1 for modifier</comment>
-        <translation type="unfinished"></translation>
+        <translation>이 문서는 업데이트 되었습니다. 새 버전을 확인하세요.</translation>
     </message>
 </context>
 <context>
@@ -1281,7 +1281,7 @@ path:%3</source>
         <source>Sync Progress</source>
         <translation type="unfinished"></translation>
     </message>
-    <message utf8="true">
+    <message>
         <source>Syncing, please wait…</source>
         <translation type="unfinished"></translation>
     </message>

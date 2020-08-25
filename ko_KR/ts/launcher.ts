@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ko_KR">
-<defaultcodec>UTF-8</defaultcodec>
+<TS version="2.1" language="ko_KR">
 <context>
     <name>KLauncherWidgetClass</name>
     <message>
         <source>KLauncherWidget</source>
-        <translation type="unfinished"></translation>
+        <translation>KLauncher위젯</translation>
     </message>
     <message>
         <source>Welcome to WPS Office</source>
@@ -26,7 +25,7 @@
     </message>
     <message>
         <source>Create desktop shortcuts</source>
-        <translation>바로가기 만들기</translation>
+        <translation>바탕화면 바로가기 만들기</translation>
     </message>
 </context>
 <context>
